@@ -1,0 +1,17 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+*.eslintrc
+*.prettierrc
+web-build/
+
+
+# macOS
+.DS_Store

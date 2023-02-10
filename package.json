@@ -1,0 +1,32 @@
+{
+  "name": "stupidapp",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "watchman-shutdown": "watchman watch-del-all shutdown-server",
+    "lint": "eslint --ext .tsx --ext .ts src/",
+    "format": "prettier --check ./src"
+  },
+  "dependencies": {
+    "expo": "~47.0.12",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-native": "0.70.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "eslint": "^8.33.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.4"
+  },
+  "private": true
+}
